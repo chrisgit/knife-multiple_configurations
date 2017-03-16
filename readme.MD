@@ -49,7 +49,7 @@ As you can see the knife.rb above uses full paths to locations of additional fil
 
 ![Image of Windows symbolic link](images/windows_make_symlink.png)
 
-Recently the instructions for setting up users on the Chef server and creating a knife.rb configuration file were revised (link: https://newvoicemedia.atlassian.net/wiki/display/DW/Setting+up+your+Chef+User+Account), the new instructions come with a new format for the knife.rb configuration file (see below)
+Recently the instructions for setting up users on the Chef server and creating a knife.rb configuration file were revised, the new instructions come with a new format for the knife.rb configuration file (see below)
 
 ```ruby
 current_dir = File.dirname(__FILE__)
